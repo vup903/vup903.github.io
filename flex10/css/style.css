@@ -1,0 +1,139 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    text-decoration: none;
+}
+*,*:before,*:after{box-sizing: border-box;}
+.wrap{
+    display:flex;
+    justify-content: space-between;
+    width: 950px;
+    padding: 4px;
+    margin: 0 auto;
+}
+
+.list{
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.list ul li{
+    border: 1px solid #000;
+}
+
+.title{
+    color:white;
+    background: #37523d;
+    padding: 20px;
+}
+
+.one a{
+    color: #37523d;
+    background: #e7eeea;
+    display:block;
+    padding: 20px;
+}
+.one a:hover{
+    background: #37523d;
+    color:#e7eeea;
+}
+
+.list ul li a{
+    padding: 20px;
+    display: block;
+    color:#37523d;
+}
+.list ul li a:hover{
+    background: #37523d;
+    color:#e7eeea;
+}
+
+.menu{
+    display: flex;
+    width: 700px;
+    flex-wrap: wrap;
+}
+.item{
+    width: 300px;
+    text-align: center;
+    color:#37523d;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.inside{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu h2{
+    font-size: 16px;
+    padding: 16px;
+    width: 180px;
+    border: 1px solid #e7eeea;
+}
+.menu p{
+    padding: 16px;
+    border: 1px solid #e7eeea;
+    width: 120px;
+}
+.menu a{
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+    color:#37523d;
+    font-weight: bold;
+    background: #e7eeea;
+}
+.menu a:hover{
+    color:#e7eeea;
+    background: #37523d;
+}
+

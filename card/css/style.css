@@ -1,0 +1,190 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    text-decoration: none;
+}
+.wrap{
+	width: 1500px;
+	background: #00f5a8;
+	padding-top:200px;
+	padding-bottom: 360px;
+}
+
+.card{
+	background: #ededed;
+	width: 825px;
+	height: 420px;
+	margin: 0 auto;
+	border-radius: 50px;
+	font-family: verdana;
+	box-shadow:0 0 80px burlywood;
+	padding-bottom: 35px;
+	padding-top: 40px;
+	font-weight: bold;
+	overflow: hidden;
+}
+.card img{
+	width: 220px;
+	margin-left: 45px;
+	margin-bottom: 50px;
+}
+
+.card h1{
+	color:#3f848f;
+	margin-left: 56px;
+	margin-bottom: 40px;
+	font-size: 32px;
+}
+.card h1 span{
+	font-size: 24px;
+	margin-left: 20px;
+	font-weight: normal;
+}
+.card h2 a{
+	display: block;
+	color:#005c48;
+	font-size: 50px;
+	margin-left: 280px;
+	margin-bottom: 58px;
+}
+.card h2 a:hover{
+	color:#b3c003
+
+}
+.card p {
+	margin-left: 56px;
+	color:#3f848f;
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+.card p a{
+	color:#3f848f;
+}
+.card p a:hover{
+	color:#b3c003
+}
+
+.img1{
+position: relative;
+left: 650px;
+top: -500px;
+
+}
+.img2{
+	position: relative;
+	left: 560px;
+	top: -415px;
+}
+.img3{
+	position:relative;
+	left: 690px;
+	top: -410px;
+}
+
+.img1{
+	position:relative;
+  width: 176px;
+  height:0;
+  border-width:0 88px 152px;
+	border-style:solid;
+  border-color:transparent transparent #00c178;
+}
+.img1:before{
+position:absolute;
+content:"";
+  top:152px;
+  left:-88px;
+  width:176px;
+  height:0;
+background:none;
+  border-width:152px 88px 0;
+border-style:solid;    
+  border-color:#00c178 transparent transparent;
+  }
+
+  .img2{
+	position:relative;
+  width:84px;
+  height: 0px;;
+  border-width:0 42px 73px;
+	border-style:solid;
+  border-color:transparent transparent #659d92;
+}
+.img2:before{
+position:absolute;
+content:"";
+  top:73px;
+  left:-42px;
+  width:84px;
+  height:0;
+background:none;
+  border-width:73px 42px 0;
+border-style:solid;    
+  border-color:#659d92 transparent transparent;
+  }
+  .img3{
+	position:relative;
+  width:100px;
+  height:0;
+  border-width:0 50px 87px;
+	border-style:solid;
+  border-color:transparent transparent #6bd3a7;
+}
+.img3:before{
+position:absolute;
+content:"";
+  top:87px;
+  left:-50px;
+  width:100px;
+  height:0;
+background:none;
+  border-width:87px 50px 0;
+border-style:solid;    
+  border-color:#6bd3a7 transparent transparent;
+  }
