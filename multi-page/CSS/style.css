@@ -1,0 +1,553 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  text-decoration: none;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+/*layout*/
+.wrap {
+  width: 1024px;
+  margin: 0 auto;
+  background-image: url(../img/banner.png);
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(53, 53, 53, 0.8);
+}
+
+.header h1 a {
+  display: block;
+  background-image: url(../img/hlogo.png);
+  width: 180px;
+  height: 40px;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 20px;
+  margin-left: 40px;
+}
+.header ul {
+  display: flex;
+}
+.header li a {
+  color: #dddddd;
+  display: block;
+  padding: 30px;
+  border-bottom: 10px solid transparent;
+}
+.header li a:hover {
+  color: #00cc99;
+  border-bottom: 10px solid #00cc99;
+}
+.footer {
+  display: flex;
+  background: #323228;
+  justify-content: space-between;
+  padding: 30px;
+}
+.footer ul {
+  display: flex;
+}
+.footer li a {
+  display: block;
+  margin: 10px;
+  margin-top: 20px;
+}
+/*index*/
+.banner {
+  padding-left: 40px;
+  color: #00cc99;
+  font-size: 48px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  line-height: 1.5;
+}
+.banner span {
+  color: white;
+}
+.banner a {
+  color: white;
+  display: block;
+  font-size: 20px;
+  padding: 15px;
+  padding-left: 40px;
+  width: 200px;
+  border-radius: 5px;
+  background: #00cc99;
+  margin-top: 60px;
+}
+.banner a:hover {
+  background: white;
+  color: #00cc99;
+}
+.list h3 {
+  color: #00cc99;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.list h3 span {
+  color: #9b9b9b;
+  font-weight: normal;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+.title a {
+  display: block;
+  width: 92px;
+  height: 33px;
+  font-size: 16px;
+  color: #00cc99;
+  border-radius: 5px;
+  border: 3px solid #00cc99;
+  line-height: 33px;
+  text-align: center;
+  margin-top: 56px;
+  margin-right: 20px;
+}
+.title a:hover {
+  opacity: 0.5;
+}
+.courselist ul {
+  display: flex;
+  text-align: center;
+  margin-top: 30px;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+.courselist li {
+  width: 300px;
+  color: #4a4a4a;
+  font-size: 20px;
+  padding: 20px;
+  box-shadow: 1px 5px 10px #a5a5a5;
+}
+.courselist h4 {
+  margin: 15px;
+  font-weight: bold;
+}
+.courselist p {
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #9b9b9b;
+}
+.courselist li:hover {
+  box-shadow: 5px 10px 20px #707070;
+}
+
+.table h3 {
+  color: #00cc99;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+.table h3 span {
+  color: #9b9b9b;
+  font-weight: normal;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.compare {
+  width: 940px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.compare th,
+.compare td {
+  border-bottom: 1px solid #ebebeb;
+  padding: 16px;
+  padding-left: 60px;
+  padding-right: 60px;
+  text-align: center;
+  font-size: 16px;
+}
+.compare th {
+  font-weight: bold;
+  background: #ebebeb;
+}
+.compare td span {
+  color: #42b392;
+}
+.form {
+  background: #ebebeb;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 140px;
+  padding-bottom: 60px;
+}
+.form h3 {
+  font-size: 30px;
+  line-height: 2;
+  font-weight: bold;
+}
+.form input {
+  width: 460px;
+  height: 52px;
+  margin-bottom: 20px;
+  border: transparent;
+}
+.form ::placeholder {
+  font-size: 20px;
+  color: #9b9b9b;
+}
+.form .button {
+  cursor: pointer;
+  width: 140px;
+  float: right;
+  background: #00cc99;
+  color: #ebebeb;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.form .button:hover {
+  background: #098a4d;
+}
+/*course*/
+.coursewrap {
+  background-image: url(../img/crsbanner.png);
+  width: 1024px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+.coursewrap .banner {
+  color: white;
+  font-size: 48px;
+  padding-bottom: 140px;
+}
+.coursewrap .banner p {
+  font-size: 24px;
+  color: #00cc99;
+}
+.intro {
+  padding: 50px;
+  padding-bottom: 70px;
+}
+.intro .teacher {
+  display: flex;
+  justify-content: center;
+}
+.intro h3 {
+  font-size: 36px;
+  color: #00cc99;
+  margin-top: 50px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  padding-left: 170px;
+}
+.intro span {
+  font-size: 20px;
+  color: #9b9b9b;
+  margin-left: 20px;
+}
+.intro .teacher h2 {
+  font-size: 36px;
+  color: #00cc99;
+  font-weight: bold;
+  margin-top: 70px;
+  margin-left: 40px;
+  margin-right: 60px;
+  line-height: 1.5;
+}
+.intro .teacher span {
+  color: #323228;
+  font-size: 36px;
+  margin-left: 0;
+}
+.teacher ul {
+  list-style: initial;
+  color: #9b9b9b;
+  padding-top: 70px;
+  line-height: 0.8;
+}
+.teacher img {
+  margin-left: -30px;
+}
+
+.intro ol {
+  line-height: 1.5;
+  list-style: decimal;
+  padding-left: 190px;
+  font-weight: bold;
+  width: 750px;
+}
+.intro ol li {
+  padding-left: 16px;
+}
+.intro h5 {
+  font-weight: bold;
+  padding: 18px;
+  background: #ebebeb;
+  padding-left: 50px;
+  width: 620px;
+  margin: 0 auto;
+}
+.intro h6 {
+  font-weight: bold;
+  padding: 18px;
+  padding-left: 50px;
+  width: 620px;
+  margin: 0 auto;
+  color: #9b9b9b;
+}
+.coursewrap .form {
+  font-size: 30px;
+  line-height: 2;
+  justify-content: center;
+  padding-bottom: 140px;
+  font-weight: bold;
+}
+.coursewrap .form a {
+  font-size: 16px;
+  display: block;
+  background: #00cc99;
+  color: white;
+  width: 220px;
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 50px;
+  border-radius: 5px;
+}
+.coursewrap .form a:hover {
+  background: #098a4d;
+}
+
+/*faq*/
+.faq {
+  background-image: url(../img/qabanner.png);
+  width: 1024px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+.faq .banner h2 {
+  color: white;
+  text-align: center;
+  margin-top: -20px;
+}
+.faq .banner p {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 200px;
+}
+.qa {
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 30px;
+}
+.qa h2 {
+  font-size: 36px;
+  color: #00cc99;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.qa span {
+  font-size: 20px;
+  color: #9b9b9b;
+  margin-left: 16px;
+}
+.qa h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.qa p {
+  color: #9b9b9b;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+.qa a {
+  color: #00cc99;
+}
+.qa a:hover {
+  color: #b8cc00;
+}
+.qa ol {
+  list-style: decimal;
+  margin-left: 50px;
+  color: #9b9b9b;
+  line-height: 1.5;
+  margin-top: -20px;
+}
+.refund_step {
+  color: #9b9b9b;
+  line-height: 1.5;
+  list-style: disc;
+}
+.refund_step li {
+  padding-left: 30px;
+  margin-left: 50px;
+}
+.after_refund {
+  color: black;
+  line-height: 1.5;
+  list-style: disc;
+  font-weight: bold;
+}
+.after_refund li {
+  color: #9b9b9b;
+  margin-left: 50px;
+  padding-left: 30px;
+  font-weight: normal;
+}
+.faq .form h2 {
+  font-size: 30px;
+  line-height: 2;
+  width: 500px;
+  font-weight: bold;
+}
+.faq .form form {
+  width: 460px;
+}
+
+.faq textarea {
+  width: 460px;
+  height: 250px;
+  border: transparent;
+}
+.faq .button {
+  margin-top: 20px;
+}
